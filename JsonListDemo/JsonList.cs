@@ -24,7 +24,12 @@ namespace JsonListDemo
             list[index] = item;
             WriteList(list);
         }
-       public void  Delete(int index) { }
+        public void Delete(int index)
+        {
+            list = GetList();
+            list.RemoveAt(index);
+            WriteList(list);
+        }
 
 
         private List<string> GetList()
