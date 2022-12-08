@@ -1,18 +1,4 @@
-﻿//using Newtonsoft.Json;
-
-//List<string> adlar = new List<string> { "salam", "Sadsad", "asdasd" };
-
-
-//var t = JsonConvert.SerializeObject(adlar);
-//Console.WriteLine(t);
-//File.WriteAllText("data.json", t);
-
-
-//var tt=File.ReadAllText("data.json");
-//var cc = JsonConvert.DeserializeObject<List<string>>(tt);
-//int k = 4;
-
-
+﻿
 
 //using JsonListDemo;
 
